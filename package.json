@@ -1,6 +1,6 @@
 {
   "name": "pauli-pomodoro",
-  "displayName": "pauli-pomodoro",
+  "displayName": "Pauli Pomodoro",
   "description": "Hey Pauli, a pomodoro timer in vs code.",
   "version": "0.0.1",
   "engines": {
@@ -9,15 +9,64 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "pauli-pomodoro.helloWorld",
-        "title": "Hello World"
+        "command": "pauli-pomodoro.startTimer",
+        "title": "Start Timer"
+      },
+      {
+        "command": "pauli-pomodoro.switchSessionType",
+        "title": "Switch Session Type"
+      },
+      {
+        "command": "pauli-pomodoro.pauseTimer",
+        "title": "Pause Timer"
+      },
+      {
+        "command": "pauli-pomodoro.resetTimer",
+        "title": "Reset Timer"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Pauli Pomodoro",
+      "properties": {
+        "pauli-pomodoro.workingSessionLength": {
+          "type": "number",
+          "default": 24,
+          "description": "Length of the working session in minutes."
+        },
+        "pauli-pomodoro.breakSessionLength": {
+          "type": "number",
+          "default": 6,
+          "description": "Length of the break session in minutes."
+        }
+      }
+    },
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "pauli-pomodoro-container",
+          "title": "Pauli Pomodoro",
+          "icon": "$(symbol-color)"
+        }
+      ]
+    },
+    "views": {
+      "pauli-pomodoro-container": [
+        {
+          "id": "pauli-pomodoro-webview",
+          "name": "Pauli Pomodoro Controls",
+          "type": "webview",
+          "icon": "$(symbol-color)",
+          "contextualTitle": "Pauli Pomodoro"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",

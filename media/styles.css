@@ -1,0 +1,119 @@
+body {
+    font-family: var(--vscode-font-family);
+    color: var(--vscode-editor-foreground);
+    background-color: var(--vscode-editor-background);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: flex-start;
+    /* Align content to the top */
+    height: 100vh;
+    /* Full viewport height */
+    text-align: center;
+    /* Center text within elements */
+}
+
+.container {
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    /* Max width of the content area */
+    box-sizing: border-box;
+}
+
+h1 {
+    color: var(--vscode-titleBar-activeForeground, var(--vscode-editor-foreground));
+    /* Use title bar color or fallback */
+    font-size: 1.8em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.timer-info {
+    margin-bottom: 25px;
+}
+
+#timer-display {
+    font-size: 4.5em;
+    /* Larger timer display */
+    font-weight: bold;
+    color: var(--vscode-charts-yellow, #FFD700);
+    /* A prominent color, can be themed */
+    margin-bottom: 5px;
+    line-height: 1;
+}
+
+#session-status-container {
+    font-size: 0.9em;
+    color: var(--vscode-descriptionForeground, var(--vscode-editor-foreground));
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    /* Changed from grid to flex */
+    flex-direction: row;
+    /* Arrange buttons in a row */
+    justify-content: space-around;
+    /* Distribute space around buttons */
+    align-items: center;
+    /* Align items vertically */
+    gap: 8px;
+    /* Reduced gap between buttons */
+}
+
+button {
+    background-color: var(--vscode-button-background);
+    color: var(--vscode-button-foreground);
+    border: 1px solid var(--vscode-button-border, transparent);
+    padding: 8px;
+    /* Reduced padding for more compact buttons */
+    margin: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2em;
+    /* Slightly increase icon size if needed, or adjust as preferred */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease;
+    min-width: 40px;
+    /* Ensure buttons have a minimum width for tap targets */
+    min-height: 40px;
+    /* Ensure buttons have a minimum height for tap targets */
+}
+
+button:hover {
+    background-color: var(--vscode-button-hoverBackground);
+    transform: translateY(-1px);
+    /* Slight lift on hover */
+}
+
+button:active {
+    transform: translateY(0px);
+    /* Remove lift on click */
+}
+
+button i {
+    margin: 0;
+    /* Removed margin as there is no text next to icon */
+}
+
+/* Specific button styling if needed */
+#start-button {
+    /* background-color: var(--vscode-button-primaryBackground, var(--vscode-button-background)); */
+    /* color: var(--vscode-button-primaryForeground, var(--vscode-button-foreground)); */
+}
+
+#pause-button {
+    display: none;
+    /* Initially hidden, shown when timer is running */
+}
+
+/* Make reset and switch full width if they are the only ones in a row or for emphasis */
+#reset-button,
+#switch-button {
+    /* grid-column: span 2; /* Make button span both columns if desired */
+}
