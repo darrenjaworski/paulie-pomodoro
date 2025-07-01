@@ -2,6 +2,10 @@
 
 All notable changes to the "paulie-pomodoro" extension will be documented in this file.
 
+## [1.0.6]
+
+- chore: update readme
+
 ## [1.0.5]
 
 - feat: fluid session setting

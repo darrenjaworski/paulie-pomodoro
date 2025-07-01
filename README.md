@@ -45,7 +45,7 @@ This extension contributes the following settings:
 - `paulie-pomodoro.workingSessionLength`: Length of the working session in minutes (default: 24)
 - `paulie-pomodoro.breakSessionLength`: Length of the break session in minutes (default: 6)
 - `paulie-pomodoro.enableNotifications`: Enable info notifications (default: disabled)
-- `paulie-pomodor.autoSwitchSessions`: Enable automatically switching the session and leaving the timer running (default: disabled)
+- `paulie-pomodoro.autoSwitchSessions`: Enable automatically switching the session and leaving the timer running (default: disabled)
 
 ## Commands
 
@@ -61,6 +61,10 @@ You can access these commands from the Command Palette or via the webview contro
 [Please report any bugs or issues on the extension's Github repo.](https://github.com/darrenjaworski/paulie-pomodoro/issues/new)
 
 ## Release Notes
+
+### 1.0.6
+
+- chore: update readme
 
 ### 1.0.5
 
