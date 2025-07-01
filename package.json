@@ -2,6 +2,7 @@
   "name": "paulie-pomodoro",
   "displayName": "Paulie Pomodoro",
   "description": "Hey Paulie, a pomodoro timer in VS Code.",
+  "publisher": "darrenjaworski",
   "version": "1.0.0",
   "icon": "icon.png",
   "license": "MIT",
