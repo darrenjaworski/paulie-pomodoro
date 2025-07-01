@@ -59,6 +59,10 @@ You can access these commands from the Command Palette or via the webview contro
 
 ## Release Notes
 
+### 1.0.4
+
+- fix: extra word in footer
+
 ### 1.0.3
 
 - chore: update readme with new notification setting

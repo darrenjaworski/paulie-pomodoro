@@ -124,7 +124,7 @@ export class PomodoroWebviewProvider implements vscode.WebviewViewProvider {
                 </div>
                 <script nonce="${nonce}" src="${scriptUri}"></script>
                 <footer>
-                    <p>Developed with love ❤️ by <a href="https://github.com/darrenjaworski" style="color: var(--vscode-textLink-foreground);">darrenjaworski</a> and Copilot.</p>
+                    <p>Developed with ❤️ by <a href="https://github.com/darrenjaworski" style="color: var(--vscode-textLink-foreground);">darrenjaworski</a> and Copilot.</p>
                 </footer>
             </body>
             </html>`;
