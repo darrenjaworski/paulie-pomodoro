@@ -42,6 +42,7 @@ This extension contributes the following settings:
 
 - `paulie-pomodoro.workingSessionLength`: Length of the working session in minutes (default: 24)
 - `paulie-pomodoro.breakSessionLength`: Length of the break session in minutes (default: 6)
+- `paulie-pomodoro.enableNotifications`: Enable info notifications (default: disabled)
 
 ## Commands
 
