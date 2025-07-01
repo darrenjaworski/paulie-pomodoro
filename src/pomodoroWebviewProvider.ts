@@ -117,7 +117,7 @@ export class PomodoroWebviewProvider implements vscode.WebviewViewProvider {
                     <div class="timer-info">
                         <div id="timer-display"></div>
                         <div id="session-status-container">
-                             <span id="session-type-display">Work</span> | <span id="status-display">Paused</span>
+                             <span id="session-type-display">Work</span>
                         </div>
                     </div>
 

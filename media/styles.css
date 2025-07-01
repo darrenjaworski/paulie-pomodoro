@@ -74,7 +74,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 0.2s ease-in-out, transform 0.1s ease;
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease, color 0.2s;
     min-width: 40px;
     /* Ensure buttons have a minimum width for tap targets */
     min-height: 40px;
@@ -82,12 +82,15 @@ button {
 }
 
 button:hover {
-    background-color: var(--vscode-button-hoverBackground);
+    background-color: var(--vscode-button-hoverBackground, var(--vscode-button-background));
+    color: var(--vscode-button-foreground);
     transform: translateY(-1px);
     /* Slight lift on hover */
 }
 
 button:active {
+    background-color: var(--vscode-button-secondaryBackground, var(--vscode-button-background));
+    color: var(--vscode-button-foreground);
     transform: translateY(0px);
     /* Remove lift on click */
 }
