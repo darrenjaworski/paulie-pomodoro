@@ -4,6 +4,24 @@ A beautiful, theme-aware Pomodoro timer for VS Code, designed to help you stay f
 
 ---
 
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/darrenjaworski.paulie-pomodoro?color=blue&logo=visual-studio)](https://marketplace.visualstudio.com/items?itemName=darrenjaworski.paulie-pomodoro&WT.mc_id=darrenjaworski)
+[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/darrenjaworski.paulie-pomodoro?logo=visualstudio)](https://marketplace.visualstudio.com/items?itemName=darrenjaworski.paulie-pomodoro&WT.mc_id=darrenjaworski)
+[![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/darrenjaworski.paulie-pomodoro?logo=visualstudio)](https://marketplace.visualstudio.com/items?itemName=darrenjaworski.paulie-pomodoro&WT.mc_id=darrenjaworski)
+
+## Installation
+
+Install this extension from the [VS Code marketplace](https://marketplace.visualstudio.com/items?itemName=DarrenJaworski.paulie-pomodoro).
+
+OR
+
+With VS Code open, search for `paulie-pomodoro` in the extension panel (`Ctrl+Shift+X` on Windows/Linux or `Cmd(⌘)+Shift+X` on MacOS) and click install.
+
+OR
+
+With VS Code open, launch VS Code Quick Open (`Ctrl+P` on Windows/Linux or `Cmd(⌘)+P` on MacOS), paste the following command, and press enter.
+
+`ext install darrenjaworski.paulie-pomodoro`
+
 ## Features
 
 - **Pomodoro Timer**: Start, pause, reset, and switch between work and break sessions directly from the Activity Bar or the webview panel.
