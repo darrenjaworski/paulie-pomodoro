@@ -113,9 +113,14 @@ export function activate(context: vscode.ExtensionContext) {
       if (remainingSeconds < 0) {
         clearInterval(globalTimerInterval as NodeJS.Timeout);
         globalTimerInterval = undefined;
-        vscode.window.showInformationMessage(
-          `${currentSessionType} session ended!`
-        );
+        const enableNotifications = vscode.workspace
+          .getConfiguration("paulie-pomodoro")
+          .get<boolean>("enableNotifications", false);
+        if (enableNotifications) {
+          vscode.window.showInformationMessage(
+            `${currentSessionType} session ended!`
+          );
+        }
         currentSessionType =
           currentSessionType === SessionType.Work
             ? SessionType.Break

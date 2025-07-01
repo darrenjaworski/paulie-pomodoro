@@ -38,6 +38,11 @@
     "configuration": {
       "title": "Paulie Pomodoro",
       "properties": {
+        "paulie-pomodoro.enableNotifications": {
+          "type": "boolean",
+          "default": false,
+          "description": "Show notifications when a session ends."
+        },
         "paulie-pomodoro.workingSessionLength": {
           "type": "number",
           "default": 24,
