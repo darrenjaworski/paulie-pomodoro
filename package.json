@@ -2,7 +2,7 @@
   "name": "pauliee-pomodoro",
   "displayName": "Paulie Pomodoro",
   "description": "Hey Paulie, a pomodoro timer in vs code.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.100.0"
   },

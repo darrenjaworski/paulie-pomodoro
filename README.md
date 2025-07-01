@@ -1,6 +1,6 @@
 # Paulie Pomodoro
 
-A beautiful, theme-aware Pomodoro timer for VS Code, designed to help you stay focused and productive.
+A beautiful, theme-aware Pomodoro timer for VS Code, designed to help you stay focused and productive. "Hey Paulie! Paulie. More wine."
 
 ---
 
@@ -11,10 +11,8 @@ A beautiful, theme-aware Pomodoro timer for VS Code, designed to help you stay f
 - **Webview Panel**: Modern, responsive UI with large timer display, session type, and intuitive controls.
 - **Theme Awareness**: All UI elements (timer, buttons, footer) adapt to your VS Code color theme, both light and dark.
 - **Customizable Durations**: Configure your work and break session lengths in the extension settings.
-- **Activity Bar Icon**: Uses a codicon or custom SVG for a native look.
-- **Footer**: Shows "Developed with love ❤️ by darrenjaworski and Copilot" at the bottom of the webview.
 
-![Screenshot](images/feature-x.png)
+![Preview](https://raw.githubusercontent.com/darrenjaworski/paulie-pomodoro/refs/heads/main/paulie-pomodoro-preview.png)
 
 ---
 
@@ -46,28 +44,13 @@ You can access these commands from the Command Palette or via the webview contro
 
 ## Known Issues
 
-- The timer does not persist if VS Code is closed or reloaded.
-- Only one timer can run at a time.
+[Please report any bugs or issues on the extension's Github repo.](https://github.com/darrenjaworski/paulie-pomodoro/issues/new)
 
 ---
 
 ## Release Notes
 
-### 0.0.1
+### 1.0.0
+
 - Initial release: Pomodoro timer, webview controls, status bar integration, theme support, and settings.
 
----
-
-## Contributing
-
-Pull requests and suggestions are welcome!
-
----
-
-## License
-
-MIT
-
----
-
-**Developed with love ❤️ by [darrenjaworski](https://github.com/darrenjaworski) and Copilot.**
