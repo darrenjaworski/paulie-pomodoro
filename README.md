@@ -1,6 +1,6 @@
-# pauli-pomodoro README
+# paulie-pomodoro README
 
-This is the README for your extension "pauli-pomodoro". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "paulie-pomodoro". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 

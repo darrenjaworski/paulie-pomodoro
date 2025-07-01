@@ -1,7 +1,7 @@
 {
-  "name": "pauli-pomodoro",
-  "displayName": "Pauli Pomodoro",
-  "description": "Hey Pauli, a pomodoro timer in vs code.",
+  "name": "pauliee-pomodoro",
+  "displayName": "Paulie Pomodoro",
+  "description": "Hey Paulie, a pomodoro timer in vs code.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.100.0"
@@ -16,31 +16,31 @@
   "contributes": {
     "commands": [
       {
-        "command": "pauli-pomodoro.startTimer",
+        "command": "pauliee-pomodoro.startTimer",
         "title": "Start Timer"
       },
       {
-        "command": "pauli-pomodoro.switchSessionType",
+        "command": "paulie-pomodoro.switchSessionType",
         "title": "Switch Session Type"
       },
       {
-        "command": "pauli-pomodoro.pauseTimer",
+        "command": "paulie-pomodoro.pauseTimer",
         "title": "Pause Timer"
       },
       {
-        "command": "pauli-pomodoro.resetTimer",
+        "command": "paulie-pomodoro.resetTimer",
         "title": "Reset Timer"
       }
     ],
     "configuration": {
-      "title": "Pauli Pomodoro",
+      "title": "Paulie Pomodoro",
       "properties": {
-        "pauli-pomodoro.workingSessionLength": {
+        "paulie-pomodoro.workingSessionLength": {
           "type": "number",
           "default": 24,
           "description": "Length of the working session in minutes."
         },
-        "pauli-pomodoro.breakSessionLength": {
+        "paulie-pomodoro.breakSessionLength": {
           "type": "number",
           "default": 6,
           "description": "Length of the break session in minutes."
@@ -50,20 +50,20 @@
     "viewsContainers": {
       "activitybar": [
         {
-          "id": "pauli-pomodoro-container",
-          "title": "Pauli Pomodoro",
+          "id": "paulie-pomodoro-container",
+          "title": "Paulie Pomodoro",
           "icon": "$(symbol-color)"
         }
       ]
     },
     "views": {
-      "pauli-pomodoro-container": [
+      "paulie-pomodoro-container": [
         {
-          "id": "pauli-pomodoro-webview",
-          "name": "Pauli Pomodoro Controls",
+          "id": "paulie-pomodoro-webview",
+          "name": "Paulie Pomodoro Controls",
           "type": "webview",
           "icon": "$(symbol-color)",
-          "contextualTitle": "Pauli Pomodoro"
+          "contextualTitle": "Paulie Pomodoro"
         }
       ]
     }

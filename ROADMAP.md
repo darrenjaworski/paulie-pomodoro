@@ -1,6 +1,6 @@
 # pomodoro vs code extension
 
-Pauli's pomodoro timer. Simple pomodoro timer to help keep you productive and rested.
+Paulie's pomodoro timer. Simple pomodoro timer to help keep you productive and rested.
 
 ## settings
 
