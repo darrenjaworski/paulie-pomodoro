@@ -29,6 +29,8 @@ With VS Code open, launch VS Code Quick Open (`Ctrl+P` on Windows/Linux or `Cmd(
 - **Webview Panel**: Modern, responsive UI with large timer display, session type, and intuitive controls.
 - **Theme Awareness**: All UI elements (timer, buttons, footer) adapt to your VS Code color theme, both light and dark.
 - **Customizable Durations**: Configure your work and break session lengths in the extension settings.
+- **Optional Notifications**: Enable/disable notifications when sessions end.
+- **Automatically switch session**: Automatically switch sessions and leave timer running.
 
 ![Preview](https://raw.githubusercontent.com/darrenjaworski/paulie-pomodoro/refs/heads/main/paulie-pomodoro-preview.png)
 
@@ -43,6 +45,7 @@ This extension contributes the following settings:
 - `paulie-pomodoro.workingSessionLength`: Length of the working session in minutes (default: 24)
 - `paulie-pomodoro.breakSessionLength`: Length of the break session in minutes (default: 6)
 - `paulie-pomodoro.enableNotifications`: Enable info notifications (default: disabled)
+- `paulie-pomodor.autoSwitchSessions`: Enable automatically switching the session and leaving the timer running (default: disabled)
 
 ## Commands
 
@@ -58,6 +61,10 @@ You can access these commands from the Command Palette or via the webview contro
 [Please report any bugs or issues on the extension's Github repo.](https://github.com/darrenjaworski/paulie-pomodoro/issues/new)
 
 ## Release Notes
+
+### 1.0.5
+
+- feat: fluid session setting
 
 ### 1.0.4
 

@@ -3,7 +3,7 @@
   "displayName": "Paulie Pomodoro",
   "description": "Hey Paulie, a pomodoro timer in VS Code.",
   "publisher": "darrenjaworski",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "icon": "icon.png",
   "license": "MIT",
   "engines": {
@@ -52,6 +52,11 @@
           "type": "number",
           "default": 6,
           "description": "Length of the break session in minutes."
+        },
+        "paulie-pomodoro.autoSwitchSessions": {
+          "type": "boolean",
+          "default": false,
+          "description": "Automatically switch session type and start the next timer when a session ends."
         }
       }
     },

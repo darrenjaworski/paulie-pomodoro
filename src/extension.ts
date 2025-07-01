@@ -121,13 +121,20 @@ export function activate(context: vscode.ExtensionContext) {
             `${currentSessionType} session ended!`
           );
         }
+        const autoSwitch = vscode.workspace
+          .getConfiguration("paulie-pomodoro")
+          .get<boolean>("autoSwitchSessions", false);
         currentSessionType =
           currentSessionType === SessionType.Work
             ? SessionType.Break
             : SessionType.Work;
-        isPaused = true;
         remainingSeconds = 0;
-        updateUI(); // Update both status bar and webview
+        if (autoSwitch) {
+          startTimer(); // Automatically start next session
+        } else {
+          isPaused = true;
+          updateUI(); // Update both status bar and webview
+        }
         return;
       }
       updateUI(); // Update both status bar and webview
