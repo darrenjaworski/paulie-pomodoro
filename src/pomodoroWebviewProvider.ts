@@ -24,12 +24,6 @@ export class PomodoroWebviewProvider implements vscode.WebviewViewProvider {
     }
   }
 
-  public clearBadge() {
-    if (this._view) {
-      // this._view.badge = undefined;
-    }
-  }
-
   public resolveWebviewView(
     webviewView: vscode.WebviewView,
     context: vscode.WebviewViewResolveContext,

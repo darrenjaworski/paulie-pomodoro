@@ -8,11 +8,6 @@ enum SessionType {
   Break = "Break",
 }
 
-// Define a type for QuickPick items that include a command ID
-interface PomodoroQuickPickItem extends vscode.QuickPickItem {
-  commandId: string;
-}
-
 export function activate(context: vscode.ExtensionContext) {
   console.log(
     'Congratulations, your extension "paulie-pomodoro" is now active!'
@@ -28,7 +23,6 @@ export function activate(context: vscode.ExtensionContext) {
   );
 
   let statusBarItem: vscode.StatusBarItem;
-  // let timerInterval: NodeJS.Timeout | undefined; // Moved to global scope
   let remainingSeconds: number = 0;
   let currentSessionType: SessionType = SessionType.Work;
   let isPaused: boolean = true;
@@ -79,7 +73,6 @@ export function activate(context: vscode.ExtensionContext) {
       )} ${sessionEmoji}`;
       statusBarItem.tooltip = "Paulie Pomodoro"; // Updated tooltip
     }
-    // statusBarItem.command = 'workbench.view.extension.paulie-pomodoro-container'; // Command to open the sidebar view
     statusBarItem.command = "paulie-pomodoro.statusBarClick"; // New command for combined actions
     // Remove the direct call to provider.updateTimer from here
   };
