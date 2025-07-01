@@ -58,6 +58,11 @@ You can access these commands from the Command Palette or via the webview contro
 
 ## Release Notes
 
+### 1.0.1
+
+- fix: webview header title
+- chore: readme updates
+
 ### 1.0.0
 
 - feat: Pomodoro timer

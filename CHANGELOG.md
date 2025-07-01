@@ -4,6 +4,11 @@ All notable changes to the "paulie-pomodoro" extension will be documented in thi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.0.1
+
+- fix: webview header title
+- chore: readme updates
+
 ## 1.0.0
 
 - feat: Pomodoro timer

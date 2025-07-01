@@ -3,7 +3,7 @@
   "displayName": "Paulie Pomodoro",
   "description": "Hey Paulie, a pomodoro timer in VS Code.",
   "publisher": "darrenjaworski",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "icon.png",
   "license": "MIT",
   "engines": {
@@ -63,10 +63,9 @@
       "paulie-pomodoro-container": [
         {
           "id": "paulie-pomodoro-webview",
-          "name": "Paulie Pomodoro Controls",
+          "name": "Paulie Pomodoro",
           "type": "webview",
-          "icon": "$(symbol-color)",
-          "contextualTitle": "Paulie Pomodoro"
+          "icon": "$(symbol-color)"
         }
       ]
     }
