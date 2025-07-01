@@ -32,13 +32,9 @@ With VS Code open, launch VS Code Quick Open (`Ctrl+P` on Windows/Linux or `Cmd(
 
 ![Preview](https://raw.githubusercontent.com/darrenjaworski/paulie-pomodoro/refs/heads/main/paulie-pomodoro-preview.png)
 
----
-
 ## Requirements
 
 No special requirements. Just install and start using!
-
----
 
 ## Extension Settings
 
@@ -46,8 +42,6 @@ This extension contributes the following settings:
 
 - `paulie-pomodoro.workingSessionLength`: Length of the working session in minutes (default: 24)
 - `paulie-pomodoro.breakSessionLength`: Length of the break session in minutes (default: 6)
-
----
 
 ## Commands
 
@@ -58,13 +52,9 @@ This extension contributes the following settings:
 
 You can access these commands from the Command Palette or via the webview controls.
 
----
-
 ## Known Issues
 
 [Please report any bugs or issues on the extension's Github repo.](https://github.com/darrenjaworski/paulie-pomodoro/issues/new)
-
----
 
 ## Release Notes
 
