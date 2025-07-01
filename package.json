@@ -1,8 +1,10 @@
 {
   "name": "pauliee-pomodoro",
   "displayName": "Paulie Pomodoro",
-  "description": "Hey Paulie, a pomodoro timer in vs code.",
+  "description": "Hey Paulie, a pomodoro timer in VS Code.",
   "version": "1.0.0",
+  "icon": "icon.png",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.100.0"
   },
