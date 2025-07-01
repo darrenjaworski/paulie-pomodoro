@@ -62,6 +62,7 @@ You can access these commands from the Command Palette or via the webview contro
 ### 1.0.3
 
 - chore: update readme with new notification setting
+- feat: enable notification setting
 
 ### 1.0.2
 

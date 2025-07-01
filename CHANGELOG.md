@@ -4,21 +4,22 @@ All notable changes to the "paulie-pomodoro" extension will be documented in thi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## 1.0.3
+## [1.0.3]
 
 - chore: update readme with new notification setting
+- feat: enable notification setting
 
-## 1.0.2
+## [1.0.2]
 
 - feat: add notification setting, set to false
 - refactor: removed unused code
 
-## 1.0.1
+## [1.0.1]
 
 - fix: webview header title
 - chore: readme updates
 
-## 1.0.0
+## [1.0.0]
 
 - feat: Pomodoro timer
 - feat: webview controls
