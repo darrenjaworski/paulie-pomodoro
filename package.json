@@ -52,7 +52,7 @@
         {
           "id": "paulie-pomodoro-container",
           "title": "Paulie Pomodoro",
-          "icon": "$(symbol-color)"
+          "icon": "media/paulie-pomodoro.svg"
         }
       ]
     },
