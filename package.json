@@ -17,19 +17,19 @@
     "commands": [
       {
         "command": "pauliee-pomodoro.startTimer",
-        "title": "Start Timer"
+        "title": "Paulie Pomodoro: Start Timer"
       },
       {
         "command": "paulie-pomodoro.switchSessionType",
-        "title": "Switch Session Type"
+        "title": "Paulie Pomodoro: Switch Session Type"
       },
       {
         "command": "paulie-pomodoro.pauseTimer",
-        "title": "Pause Timer"
+        "title": "Paulie Pomodoro: Pause Timer"
       },
       {
         "command": "paulie-pomodoro.resetTimer",
-        "title": "Reset Timer"
+        "title": "Paulie Pomodoro: Reset Timer"
       }
     ],
     "configuration": {
