@@ -1,5 +1,5 @@
 {
-  "name": "pauliee-pomodoro",
+  "name": "paulie-pomodoro",
   "displayName": "Paulie Pomodoro",
   "description": "Hey Paulie, a pomodoro timer in VS Code.",
   "version": "1.0.0",
@@ -18,7 +18,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "pauliee-pomodoro.startTimer",
+        "command": "paulie-pomodoro.startTimer",
         "title": "Paulie Pomodoro: Start Timer"
       },
       {

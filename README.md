@@ -52,5 +52,9 @@ You can access these commands from the Command Palette or via the webview contro
 
 ### 1.0.0
 
-- Initial release: Pomodoro timer, webview controls, status bar integration, theme support, and settings.
-
+- feat: Pomodoro timer
+- feat: webview controls
+- feat: status bar integration
+- feat: theme support
+- feat: settings
+- feat: commands

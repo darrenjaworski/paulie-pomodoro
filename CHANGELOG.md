@@ -1,9 +1,14 @@
 # Change Log
 
-All notable changes to the "pauliee-pomodoro" extension will be documented in this file.
+All notable changes to the "paulie-pomodoro" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## 1.0.0
 
-- Initial release
+- feat: Pomodoro timer
+- feat: webview controls
+- feat: status bar integration
+- feat: theme support
+- feat: settings
+- feat: commands
